@@ -1,7 +1,7 @@
 terraform {
-backend "s3" {
-bucket = "terraform-class-umar"
-key = "tower/us-east-1/tools/Virginia/tower.tfstate"
-region = "us-east-1"
+  backend "s3" {
+    bucket = "	my-bucket-states"
+    key    = "path/to/my/key"
+    region = "us-east-1"
   }
 }
